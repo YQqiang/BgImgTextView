@@ -4,5 +4,6 @@ BgImgTextView的特性: 1. 带有占位文字(placeholder)  2. 可以添加背�
 ![BgImgTextView](https://github.com/YQqiang/BgImgTextView/blob/master/BgImgTextView.gif)
 
 设置文字颜色 和 代理
+
 ![color_delegate](https://github.com/YQqiang/BgImgTextView/blob/master/TextView_Delegate.gif)
 
