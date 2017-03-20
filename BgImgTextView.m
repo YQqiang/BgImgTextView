@@ -84,6 +84,16 @@
     _textView.backgroundColor = backgroundColor;
 }
 
+- (void)setTextColor:(UIColor *)textColor {
+    _textColor = textColor;
+    _textView.textColor = textColor;
+}
+
+- (void)setDelegate:(id<UITextViewDelegate>)delegate {
+    _delegate = delegate;
+    _textView.delegate = delegate;
+}
+
 - (void)setEdgeInsets:(UIEdgeInsets)edgeInsets {
     _edgeInsets = edgeInsets;
     [self removeConstraints:_hTxtConstraint];

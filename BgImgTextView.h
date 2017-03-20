@@ -45,4 +45,14 @@
  */
 @property (nonatomic, assign) UIEdgeInsets edgeInsets;
 
+/**
+ 内容文字颜色
+ */
+@property (nonatomic, strong) UIColor *textColor;
+
+/**
+ 设置代理
+ */
+@property (nonatomic, weak) id<UITextViewDelegate> delegate;
+
 @end
