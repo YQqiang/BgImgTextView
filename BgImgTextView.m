@@ -49,6 +49,11 @@
     return self;
 }
 
+#pragma mark - getter
+- (NSString *)text {
+    return _textView.text;
+}
+
 #pragma mark - setter
 - (void)setPlaceholder:(NSString *)placeholder {
     _placeholder = placeholder;
@@ -69,8 +74,12 @@
     }
 }
 
+- (void)setBgImg:(UIImage *)bgImg {
+    _bgImg = bgImg;
+    _imageView.image = bgImg;
+}
+
 - (void)setText:(NSString *)text {
-    _text = text;
     _textView.text = text;
 }
 

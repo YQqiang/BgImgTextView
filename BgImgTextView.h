@@ -16,6 +16,11 @@
 @property (nonatomic, copy) NSString *bgImgName;
 
 /**
+ 背景图片
+ */
+@property (nonatomic, strong) UIImage *bgImg;
+
+/**
  占位文字的内容
  */
 @property (nonatomic, copy) NSString *placeholder;
